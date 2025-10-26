@@ -4,6 +4,6 @@
 
 /* paleta do projeto */
 :root{
-  --base:#f2f2f2; --teal:#348e91; --tealDark:#1c5052; --deep:#213635; --darkest:#0a0c0d;
+  --base:#ffffff; --teal:#348e91; --tealDark:#1c5052; --deep:#213635; --darkest:#0a0c0d;
 }
 body{ background: var(--darkest); color: var(--base); }

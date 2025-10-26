@@ -1,5 +1,5 @@
-import LandingPersonalTrainer from "./components/LandingPersonalTrainer";
+import Jardinagem from "./components/Jardinagem";
 
 export default function App() {
-  return <LandingPersonalTrainer />;
+  return <Jardinagem/>;
 }
