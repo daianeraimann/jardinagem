@@ -4,6 +4,8 @@ import { motion } from "framer-motion";
 import { Sprout, Menu, X, MapPin, Phone, Mail, Instagram, CheckCircle2, Clock, Shield } from "lucide-react";
 // Adicione esta linha no topo do seu arquivo
 import gardenImage from '../assets/garden.webp';
+import diogenes from "./assets/diogenes.webp";
+
 
 // Sua nova paleta de cores
 const c = { base:"#efece2", teal:"#4a4857", tealDark:"#77b885", deep:"#77b885", darkest:"#4a4857" };
@@ -158,12 +160,7 @@ function About(){
           e nomeie como 'diogenes-jardineiro.webp'
           ou use um placeholder como abaixo:
         */}
-        <img 
-          src="src/assets/diogenes.webp"
-          alt="Foto do jardineiro Diógenes Raimann" // Alt text atualizado
-          className="w-full h-auto rounded-3xl object-cover border md:h-72" 
-          style={{borderColor:c.deep}} 
-        />
+        <img src={diogenes} alt="Diógenes Raimann" />
 
         <div className="space-y-4">
           <p className="text-sm sm:text-base leading-relaxed" style={{color:c.base}}>
